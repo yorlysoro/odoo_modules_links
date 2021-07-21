@@ -1,1 +1,1 @@
-#Scripts for branch odoo OCA
+# Scripts for branch odoo OCA
