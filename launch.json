@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Odoo 12 EE File",
+            "type": "python",
+            "terminal.activateEnvironment": true,
+            "request": "launch",
+            "python": "/home/yorlys/anaconda3/envs/odoo12/bin/python",
+            "program": "${workspaceFolder}/odoo-bin",
+            "args": ["-c", "${workspaceFolder}/odoo.conf"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
