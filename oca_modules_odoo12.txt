@@ -88,3 +88,4 @@ https://github.com/OCA/vertical-isp
 https://github.com/OCA/web
 https://github.com/OCA/website
 https://github.com/OCA/wms
+https://github.com/OCA/server-ux
