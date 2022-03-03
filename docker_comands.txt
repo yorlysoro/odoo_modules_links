@@ -1,0 +1,4 @@
+sudo docker exec -u root -it --workdir / b97a056023dc bash --Root
+sudo docker-compose up -d -- rebuild
+sudo docker container restart b97a056023dc --restart
+sudo docker container logs b97a056023dc -f --logs
