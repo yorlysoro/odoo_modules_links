@@ -88,7 +88,6 @@ https://github.com/OCA/vertical-isp
 https://github.com/OCA/web
 https://github.com/OCA/website
 https://github.com/OCA/wms
-News Modules 25/02/2022
 https://github.com/OCA/calendar
 https://github.com/OCA/ddmrp
 https://github.com/OCA/hr-attendance
