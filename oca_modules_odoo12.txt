@@ -168,3 +168,5 @@ https://github.com/OCA/connector-infor
 https://github.com/OCA/connector-accountedge
 https://github.com/OCA/apps-store
 https://github.com/OCA/account-consolidation
+https://github.com/OCA/spreadsheet
+https://github.com/OCA/stock-logistics-availability
