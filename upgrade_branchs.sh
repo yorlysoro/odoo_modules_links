@@ -3,7 +3,7 @@ do
     if [ -d $i ]
     then
         cd $i
-        git pull
+        git pull origin $1
         cd ..
     fi
 done
