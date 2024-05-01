@@ -171,3 +171,4 @@ https://github.com/OCA/stock-logistics-availability
 https://github.com/OCA/stock-logistics-request
 https://github.com/OCA/edi-framework
 https://github.com/OCA/stock-logistics-orderpoint
+https://github.com/OCA/stock-weighing
