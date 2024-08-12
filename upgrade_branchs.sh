@@ -4,6 +4,7 @@ do
     then
         echo "Update Module $i"
         cd $i
+        git reset --hard
         git pull origin $1
         cd ..
     fi
