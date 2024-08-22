@@ -1,0 +1,9 @@
+{
+    "python.languageServer": "None",
+    "indexing": true,
+    "python.defaultInterpreterPath": "/home/desarrollo4/Apps/python/Python-3.11.9/python",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+    }
+}
