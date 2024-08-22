@@ -5,14 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Odoo 12 EE File",
-            "type": "python",
-            "terminal.activateEnvironment": true,
+            "name": "odoo16 EE",
+            "type": "debugpy",
             "request": "launch",
-            "python": "/home/yorlys/anaconda3/envs/odoo12/bin/python",
-            "program": "${workspaceFolder}/odoo-bin",
-            "args": ["-c", "${workspaceFolder}/odoo.conf"],
-            "console": "integratedTerminal"
+            "python": "/home/desarrollo4/PycharmProjects/odoo16/odoo16-venv/bin/python",
+            "program": "/home/desarrollo4/PycharmProjects/odoo16/odoo/odoo-bin",
+            "args": ["-c", "/home/desarrollo4/PycharmProjects/odoo16/odoo.conf"],
+            "console": "integratedTerminal",
+            "env": {
+                "GEVENT_SUPPORT": "True",
+                "$PATH": "$PATH:home/desarrollo4/Apps/python/Python-3.11.9"
+            }
         }
     ]
 }
