@@ -5,16 +5,35 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "odoo16 EE",
+            "name": "odoo17 CE",
             "type": "debugpy",
             "request": "launch",
-            "python": "/home/desarrollo4/PycharmProjects/odoo16/odoo16-venv/bin/python",
-            "program": "/home/desarrollo4/PycharmProjects/odoo16/odoo/odoo-bin",
-            "args": ["-c", "/home/desarrollo4/PycharmProjects/odoo16/odoo.conf"],
+            "python": "${workspaceFolder}/odoo17-venv/bin/python",
+            "program": "${workspaceFolder}/odoo/odoo-bin",
+            "args": [
+                "-c", "${workspaceFolder}/odoo.conf"
+            ],
             "console": "integratedTerminal",
             "env": {
+                "PYTHONDEBUG": "1",
+                "PYTHONPYCACHEPREFIX": "/tmp/pycache",
                 "GEVENT_SUPPORT": "True",
-                "$PATH": "$PATH:home/desarrollo4/Apps/python/Python-3.11.9"
+                "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
+            }
+        },
+        {
+            "name": "odoo17 EE",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/odoo17-venv/bin/python",
+            "program": "${workspaceFolder}/odoo/odoo-bin",
+            "args": ["-c", "${workspaceFolder}/odoo_ee.conf"],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONDEBUG": "1",
+                "PYTHONPYCACHEPREFIX": "/tmp/pycache",
+                "GEVENT_SUPPORT": "True",
+                "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
             }
         }
     ]
