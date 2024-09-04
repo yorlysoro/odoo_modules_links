@@ -5,7 +5,8 @@ do
         echo "Update Module $i"
         cd $i
         git reset --hard
-        git pull origin $1
+        branch=$(git rev-parse --abbrev-ref HEAD)
+        git pull origin $branch
         cd ..
     fi
 done
