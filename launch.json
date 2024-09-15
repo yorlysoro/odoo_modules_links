@@ -17,6 +17,7 @@
             "env": {
                 "PYTHONDEBUG": "1",
                 "PYTHONPYCACHEPREFIX": "/tmp/pycache",
+                "PYTHONDONTWRITEBYTECODE", "1",
                 "GEVENT_SUPPORT": "True",
                 "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
             }
@@ -32,6 +33,7 @@
             "env": {
                 "PYTHONDEBUG": "1",
                 "PYTHONPYCACHEPREFIX": "/tmp/pycache",
+                "PYTHONDONTWRITEBYTECODE", "1",
                 "GEVENT_SUPPORT": "True",
                 "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
             }
