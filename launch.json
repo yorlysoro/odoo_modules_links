@@ -1,44 +1,27 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "odoo17 CE",
+            "name": "Python: Odoo 16 CE File",
             "type": "debugpy",
             "request": "launch",
-            "python": "${workspaceFolder}/odoo17-venv/bin/python",
-            "program": "${workspaceFolder}/odoo/odoo-bin",
+            "python": "${workspaceFolder}/odoo16-venv/bin/python",
+            "program": "${workspaceFolder}/ocb/odoo-bin",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONDEBUG": "1",
+                "PYTHONDONTWRITEBYTECODE": "1",
+                "PYTHONPYCACHEPREFIX": "/tmp/pycache",
+                "GEVENT_SUPPORT": "True"
+            },
             "args": [
-                "-c", "${workspaceFolder}/odoo.conf"
+                "-c",
+                "${workspaceFolder}/odoo.conf"
             ],
-            "console": "integratedTerminal",
-            "env": {
-                "PYTHONDEBUG": "1",
-                "PYTHONPYCACHEPREFIX": "/tmp/pycache",
-                "PYTHONDONTWRITEBYTECODE", "1",
-                "GEVENT_SUPPORT": "True",
-                "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
-            }
+            
         },
         {
-            "name": "odoo17 EE",
-            "type": "debugpy",
-            "request": "launch",
-            "python": "${workspaceFolder}/odoo17-venv/bin/python",
-            "program": "${workspaceFolder}/odoo/odoo-bin",
-            "args": ["-c", "${workspaceFolder}/odoo_ee.conf"],
-            "console": "integratedTerminal",
-            "env": {
-                "PYTHONDEBUG": "1",
-                "PYTHONPYCACHEPREFIX": "/tmp/pycache",
-                "PYTHONDONTWRITEBYTECODE", "1",
-                "GEVENT_SUPPORT": "True",
-                "PATH": "/home/desarrollo4/.local/bin:/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/bin"
-            }
-        },
-        {
+            
             "name": "Odoo 16 CE Docker (remote debug)",
             "type": "debugpy",
             "request": "attach",
@@ -51,7 +34,9 @@
                     "localRoot": "${workspaceFolder}",
                     "remoteRoot": "."
                 }
-            ]
+            ],
+            "preLaunchTask": "Docker-Compose-Up",
+            "postDebugTask": "Docker-Compose-Down"
         }
     ]
 }

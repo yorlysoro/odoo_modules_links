@@ -1,9 +1,24 @@
 {
     "python.languageServer": "None",
-    "indexing": true,
-    "python.defaultInterpreterPath": "/home/desarrollo4/Apps/python/Python-3.11.9/python",
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.env.linux": {
-        "PATH": "/home/desarrollo4/Apps/python/Python-3.11.9:/home/desarrollo4/Downloads/apache-maven-3.9.6-bin/apache-maven-3.9.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
-    }
+    "flake8.ignorePatterns": [
+        "*__init__.py"
+    ],
+    "odooScaffold.odooBinPath": "/home/yorlys/sources/odoo16/ocb/odoo-bin",
+    "odooScaffold.pythonVirtualEnv": "/home/yorlys/sources/odoo16/odoo16-venv",
+    "odooShortcuts.addonsPath": [
+        "/home/yorlys/sources/odoo16/ocb/addons",
+        "/home/yorlys/sources/odoo16/ocb/odoo/addons",
+        "/home/yorlys/sources/odoo16/oca_addons/16.0-helpdesk-oca",
+        "/home/yorlys/sources/odoo16/oca_addons/16.0-project-oca",
+        "/home/yorlys/sources/odoo16/LMS",
+        "/home/yorlys/sources/odoo16/design-themes",
+        "/home/yorlys/sources/odoo16/third_party/openeducat_erp"
+    ],
+    "debugpy.showPythonInlineValues": true,
+    "python.defaultInterpreterPath": "/home/yorlys/sources/odoo16/odoo16-venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.testing.pytestPath": "/home/yorlys/sources/odoo16/odoo16-venv/bin/pytest",
+    "terminal.integrated.scrollback": 10000,
+    "remote.WSL.debug": false,
+    "remote.WSL.fileWatcher.polling": false
 }
