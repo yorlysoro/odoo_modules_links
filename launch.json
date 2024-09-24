@@ -32,11 +32,9 @@
             "pathMappings": [
                 {
                     "localRoot": "${workspaceFolder}",
-                    "remoteRoot": "."
+                    "remoteRoot": "/var/opt/src"
                 }
-            ],
-            "preLaunchTask": "Docker-Compose-Up",
-            "postDebugTask": "Docker-Compose-Down"
+            ]
         }
     ]
 }
