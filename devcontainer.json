@@ -1,0 +1,5 @@
+{
+  "containerEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${workspaceFolder}/odoo_docker_community"
+  }
+}
