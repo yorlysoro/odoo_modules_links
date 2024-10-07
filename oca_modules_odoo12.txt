@@ -175,3 +175,4 @@ https://github.com/OCA/stock-weighing
 https://github.com/odoo/design-themes.git
 https://github.com/OCA/automation.git
 https://github.com/OCA/sign.git
+https://github.com/OCA/account-reconcile.git
