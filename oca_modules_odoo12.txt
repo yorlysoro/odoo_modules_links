@@ -173,3 +173,4 @@ https://github.com/OCA/edi-framework
 https://github.com/OCA/stock-logistics-orderpoint
 https://github.com/OCA/stock-weighing
 https://github.com/odoo/design-themes.git
+https://github.com/OCA/automation.git
