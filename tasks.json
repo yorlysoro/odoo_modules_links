@@ -1,32 +1,91 @@
 {
-    // See https://code.visualstudio.com/docs/editor/tasks for more information
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Docker-Compose-Up",
+            "label": "Odoo Docker Up Enterprise",
             "type": "shell",
-            "command": "docker compose up && sleep 120",
-            "options": {
-                "cwd": "${workspaceFolder}/odoo_docker_community"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml up -d",
+            "group": "build",
             "problemMatcher": []
         },
         {
-            "label": "Docker-Compose-Down",
+            "label": "Odoo Docker Down Enterprise",
             "type": "shell",
-            "command": "docker compose down",
-            "options": {
-                "cwd": "${workspaceFolder}/odoo_docker_community"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml down",
+            "group": "build",
             "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Build Enterprise",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml build",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Build No Cache Enterprise",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml build --no-cache",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Restart Enterprise",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml restart",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Up Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml up -d",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Down Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml down",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Build Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml build",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Build No Cache Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml build --no-cache",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Restart Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml restart",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Odoo Docker Logs Enterprise",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_enterprise/docker-compose.yml logs -f",
+            "group": "build",
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "Odoo Docker Logs Community",
+            "type": "shell",
+            "command": "docker compose -f odoo_docker_community/docker-compose.yml logs -f",
+            "group": "build",
+            "problemMatcher": [],
+            "isBackground": true
         }
     ]
 }
