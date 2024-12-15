@@ -6,7 +6,7 @@ do
         cd $i
         git reset --hard
         branch=$(git rev-parse --abbrev-ref HEAD)
-        git pull origin $branch
+        git pull origin $branch --ff
         cd ..
     fi
 done
