@@ -205,3 +205,4 @@ https://github.com/OCA/l10n-russia
 https://github.com/OCA/l10n-poland
 https://github.com/OCA/l10n-peru
 https://github.com/OCA/l10n-norway
+https://github.com/OCA/l10n-morocco
