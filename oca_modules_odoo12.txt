@@ -212,3 +212,4 @@ https://github.com/OCA/l10n-ireland
 https://github.com/OCA/l10n-indonesia
 https://github.com/OCA/l10n-india
 https://github.com/OCA/l10n-greece
+https://github.com/OCA/l10n-ethiopia
