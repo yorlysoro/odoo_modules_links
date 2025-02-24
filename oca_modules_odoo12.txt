@@ -189,3 +189,4 @@ https://github.com/OCA/sale-channel
 https://github.com/OCA/vertical-travel
 https://github.com/OCA/vertical-edition
 https://github.com/OCA/shift-planning
+https://github.com/OCA/shopfloor-app
