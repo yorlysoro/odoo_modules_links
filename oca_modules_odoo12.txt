@@ -222,3 +222,4 @@ https://github.com/OCA/l10n-china
 https://github.com/OCA/l10n-chile
 https://github.com/OCA/l10n-canada
 https://github.com/OCA/l10n-cambodia
+https://github.com/OCA/l10n-bulgaria
