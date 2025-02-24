@@ -178,3 +178,4 @@ https://github.com/OCA/sign.git
 https://github.com/OCA/account-reconcile.git
 https://github.com/OCA/community-data-files.git
 https://github.com/OCA/l10n-japan
+https://github.com/OCA/web-api-contrib
