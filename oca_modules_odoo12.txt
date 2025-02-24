@@ -182,3 +182,4 @@ https://github.com/OCA/web-api-contrib
 https://github.com/OCA/mail
 https://github.com/OCA/mass-mailing
 https://github.com/OCA/stock-logistics-shopfloor
+https://github.com/OCA/stock-logistics-reservation
