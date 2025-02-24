@@ -216,3 +216,4 @@ https://github.com/OCA/l10n-ethiopia
 https://github.com/OCA/l10n-estonia
 https://github.com/OCA/l10n-ecuador
 https://github.com/OCA/l10n-croatia
+https://github.com/OCA/l10n-costa-rica
