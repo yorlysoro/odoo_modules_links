@@ -198,3 +198,4 @@ https://github.com/OCA/l10n-vietnam
 https://github.com/OCA/l10n-uruguay
 https://github.com/OCA/l10n-united-kingdom
 https://github.com/OCA/l10n-ukraine
+https://github.com/OCA/l10n-turkey
