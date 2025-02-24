@@ -227,3 +227,4 @@ https://github.com/OCA/l10n-belarus
 https://github.com/OCA/l10n-austria
 https://github.com/OCA/l10n-argentina
 https://github.com/OCA/infrastructure
+https://github.com/OCA/e-learning
