@@ -218,3 +218,4 @@ https://github.com/OCA/l10n-ecuador
 https://github.com/OCA/l10n-croatia
 https://github.com/OCA/l10n-costa-rica
 https://github.com/OCA/l10n-colombia
+https://github.com/OCA/l10n-china
