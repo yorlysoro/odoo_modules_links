@@ -180,3 +180,5 @@ https://github.com/OCA/community-data-files.git
 https://github.com/OCA/l10n-japan
 https://github.com/OCA/web-api-contrib
 https://github.com/OCA/mail
+https://github.com/OCA/mass-mailing
+
