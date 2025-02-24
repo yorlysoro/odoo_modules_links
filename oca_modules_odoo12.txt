@@ -184,3 +184,4 @@ https://github.com/OCA/mass-mailing
 https://github.com/OCA/stock-logistics-shopfloor
 https://github.com/OCA/stock-logistics-reservation
 https://github.com/OCA/stock-logistics-release-channel
+https://github.com/OCA/stock-logistics-interfaces
