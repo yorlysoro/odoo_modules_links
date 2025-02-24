@@ -201,3 +201,4 @@ https://github.com/OCA/l10n-ukraine
 https://github.com/OCA/l10n-turkey
 https://github.com/OCA/l10n-taiwan
 https://github.com/OCA/l10n-slovenia
+https://github.com/OCA/l10n-russia
