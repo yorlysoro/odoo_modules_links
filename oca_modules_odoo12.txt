@@ -188,3 +188,4 @@ https://github.com/OCA/stock-logistics-interfaces
 https://github.com/OCA/sale-channel
 https://github.com/OCA/vertical-travel
 https://github.com/OCA/vertical-edition
+https://github.com/OCA/shift-planning
