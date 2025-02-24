@@ -195,3 +195,4 @@ https://github.com/OCA/rest-api
 https://github.com/OCA/resource
 https://github.com/OCA/pwa-builder
 https://github.com/OCA/l10n-vietnam
+https://github.com/OCA/l10n-uruguay
