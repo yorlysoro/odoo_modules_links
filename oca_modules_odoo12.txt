@@ -186,3 +186,4 @@ https://github.com/OCA/stock-logistics-reservation
 https://github.com/OCA/stock-logistics-release-channel
 https://github.com/OCA/stock-logistics-interfaces
 https://github.com/OCA/sale-channel
+https://github.com/OCA/vertical-travel
