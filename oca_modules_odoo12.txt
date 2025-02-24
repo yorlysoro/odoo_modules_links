@@ -210,3 +210,4 @@ https://github.com/OCA/l10n-macedonia
 https://github.com/OCA/l10n-luxemburg
 https://github.com/OCA/l10n-ireland
 https://github.com/OCA/l10n-indonesia
+https://github.com/OCA/l10n-india
