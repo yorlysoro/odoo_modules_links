@@ -223,3 +223,4 @@ https://github.com/OCA/l10n-chile
 https://github.com/OCA/l10n-canada
 https://github.com/OCA/l10n-cambodia
 https://github.com/OCA/l10n-bulgaria
+https://github.com/OCA/l10n-belarus
