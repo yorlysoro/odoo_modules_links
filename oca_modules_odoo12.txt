@@ -191,3 +191,4 @@ https://github.com/OCA/vertical-edition
 https://github.com/OCA/shift-planning
 https://github.com/OCA/shopfloor-app
 https://github.com/OCA/sale-blanket
+https://github.com/OCA/rest-api
