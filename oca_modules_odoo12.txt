@@ -229,3 +229,4 @@ https://github.com/OCA/l10n-argentina
 https://github.com/OCA/infrastructure
 https://github.com/OCA/e-learning
 https://github.com/OCA/connector-prestashop
+https://github.com/OCA/l10n-brazil
