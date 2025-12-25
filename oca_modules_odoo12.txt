@@ -237,3 +237,4 @@ https://github.com/OCA/bank-payment-alternative
 https://github.com/OCA/edi-voxel
 https://github.com/OCA/ai
 https://github.com/OCA/stock-logistics-putaway
+https://github.com/OCA/pms
