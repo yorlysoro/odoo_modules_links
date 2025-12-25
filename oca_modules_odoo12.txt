@@ -240,3 +240,4 @@ https://github.com/OCA/stock-logistics-putaway
 https://github.com/OCA/pms
 https://github.com/OCA/shoppingfeed
 https://github.com/OCA/tier-validation
+https://github.com/OCA/edi-ediversa
