@@ -235,3 +235,4 @@ https://github.com/OCA/module-composition-analysis
 https://github.com/OCA/crowdfunding
 https://github.com/OCA/bank-payment-alternative
 https://github.com/OCA/edi-voxel
+https://github.com/OCA/ai
