@@ -231,3 +231,4 @@ https://github.com/OCA/e-learning
 https://github.com/OCA/connector-prestashop
 https://github.com/OCA/l10n-brazil
 https://github.com/OCA/product-attribute
+https://github.com/OCA/module-composition-analysis
