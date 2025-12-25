@@ -243,3 +243,4 @@ https://github.com/OCA/tier-validation
 https://github.com/OCA/edi-ediversa
 https://github.com/OCA/sale-prebook
 https://github.com/OCA/cim
+https://github.com/OCA/wallet
